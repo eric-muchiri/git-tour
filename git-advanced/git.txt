@@ -1,0 +1,16 @@
+Git 
+A distributed version control system
+
+Stores info in key-value pair stores where:
+    Key = Hash of the data
+    Value = The actual data
+The key can be used to retrieve the content
+
+KEY 
+Cryptographic hash function.
+Hashes data into a 40-digit hexadecimal number
+Hashing(If input is the same the hash will also be the same)
+    Git log - lists the hashes(Sha 1 hashes)
+
+VALUE - The blob
+Git stores compressed data in a blob along with metadata in a header
