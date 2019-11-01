@@ -26,3 +26,14 @@ Tree = Pointers to: blobs and other trees
         file or directory name 
         mode e.g executable file, symbolic link e.t.c
     }
+Identical content is only stored once (from the nature of the SHAs)
+(Helps save tons of space)
+If blobs and trees do not change during commits, it still points to the same copies
+
+Git Optimizations
+Objects are compressed
+As files change their contents remain mostly similar
+Git optimizes for this by compressing files together into a packfile
+packfiles store the objects and deltas - Differences in one file version to another
+Packfiles are generated when:
+You have too many objects, during gc(garbage collection) or pudh to a remote
