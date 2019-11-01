@@ -37,3 +37,17 @@ Git optimizes for this by compressing files together into a packfile
 packfiles store the objects and deltas - Differences in one file version to another
 Packfiles are generated when:
 You have too many objects, during gc(garbage collection) or pudh to a remote
+
+Commits
+Commit points to a tree
+Contains metadata: Author and committer, date, message, parent commit(one or more)
+The SHA1 of the commit is a hash of the above
+TREE - Snapshot of the repository
+
+git cat -file -t r674yfuoi
+//running this aginist some sample hash
+-t - print the type
+-p - Print the content
+
+Commits can't be changed: Any of its data changes, it acquires a new hash
+Even if files don't change the date will
