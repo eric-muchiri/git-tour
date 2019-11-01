@@ -51,3 +51,12 @@ git cat -file -t r674yfuoi
 
 Commits can't be changed: Any of its data changes, it acquires a new hash
 Even if files don't change the date will
+
+References
+Pointers to commits
+Tags, branches, HEAD 
+HEAD - Points to the current commit
+When you checkout a branch, HEAD points to the current branch
+The refs in the .git directory
+refs/heads - All the branches live here 
+cat /.git/HEAD - May show the branch where HEAD is currently on.
