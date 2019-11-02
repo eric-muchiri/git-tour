@@ -1,0 +1,10 @@
+ echo 'Hello World!' > sample/hello.txt
+ Creates a file hello.txt with hello world as content
+
+ git add hello.txt
+ Adds file to staging area
+
+ Git commit -m "a message"
+
+ tree .git/objects
+ Gives the directory structure of the objects folder
