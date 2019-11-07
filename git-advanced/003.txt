@@ -1,0 +1,57 @@
+GIT STASH
+Save uncommited work
+Safe from destructive options
+
+Basic usage
+
+Stash changes
+Git Stash
+
+list changes
+git stash list
+
+Show the contents
+git stash show stash @{0}
+
+Apply the last stash
+git stash apply
+
+Apply specific stash
+git stash apply stash@{0}
+
+KEEPING FILES
+
+Keep untracked files
+git stash --include-untracked
+
+Keep all files(even ignored ones)
+git stash --all
+
+ADVANCED STASHING
+
+Name stashes for easy references
+git stash save "WIP: making progress"
+git stash save "name"
+
+Start a new branch from a stash
+git stash branch <optional stash name>
+
+Grab a single file from a stash
+git checkout <stash name> -- <filename>
+
+Cleaning the stash
+
+Remove the last stash and applying changes
+git stash pop
+    Doesn't remove if merge conflict exists
+
+Remove the last stash
+git stash drop
+
+remove the nth stash
+git stash drop stash@{n}
+
+remove all stashes
+git stash clear
+
+git stash -p
