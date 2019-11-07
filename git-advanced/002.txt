@@ -39,4 +39,41 @@ git branch a_new_branch
 tree .git/refs
 heads contain the branches
 
-  
+AREAS WHERE CODE LIVES
+Working area
+Staging area
+Repository
+
+Working area
+Files in your working area that are not also in your staging are not handled by git
+Also called untracked files
+
+Staging Area(AKA Index, Cache)
+What files are going to be part of the next commit
+The staging area is hoe git knows what will change between the current commit and the next commit
+
+Repository
+The files git knows about
+Contains all of your commits
+
+STAGING AREA
+What changes between current commit and next commit
+Tip: a clean staging area isn't empty
+Consider baseline staging area as being a copy of latest commit
+
+A look at the Index
+
+git ls-files -s
+
+Shows what is in the staging area
+
+MOVING FILES OUT OF STAGING AREA
+
+Add a file to the next commit
+git add <filename>
+
+Delete a file in the next commit
+git rm <filename>
+
+Rename a file in the next commit
+git mv <file>
