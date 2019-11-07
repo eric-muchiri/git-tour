@@ -18,6 +18,25 @@
  commit can be addressed by 1st 5 chars(including blob Hashes)
 Unless repo is too large
 
- git cat-file -t 01167
+git cat-file -t 01167 - type
 
-  git cat-file -p 01167
+git cat-file -p 01167 - Prints content
+
+Cat .git/HEAD 
+Shows where the head currently is (The branch it currently is in)
+
+cat .git/refs/heads/master
+Gives the hash 
+
+git --no-pager log --oneline
+logs in a single 
+
+cat .git/refs/heads/basics
+Commits hash
+
+git branch a_new_branch
+
+tree .git/refs
+heads contain the branches
+
+  
