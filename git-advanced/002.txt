@@ -8,3 +8,16 @@
 
  tree .git/objects
  Gives the directory structure of the objects folder
+
+ dirs with two chard contain hashes to commits
+ files within them miss the first two characters
+ Hashes are hexadecimal - A dir can have a max of 256 subfolders
+ sha1 for commits differ
+ for blobs sha1 might be the same as long as content is the same
+ tree structure also may be the same if filename and content is the same
+ commit can be addressed by 1st 5 chars(including blob Hashes)
+Unless repo is too large
+
+ git cat-file -t 01167
+
+  git cat-file -p 01167
