@@ -77,3 +77,17 @@ git rm <filename>
 
 Rename a file in the next commit
 git mv <file>
+
+git add -p
+Allows one to stage commits in hunks
+interactive
+Useful if you've done too much work for one commit
+? - for help
+
+
+Unstage
+You are not removing files
+You are replacing them with a copy currently in the Repository
+
+
+
