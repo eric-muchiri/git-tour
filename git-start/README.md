@@ -19,3 +19,6 @@ Files are added to a staging area before commiting
 `git push` - Takes the local commited changes and pushes to a remote repository  
 `git pull` - Pull the latest version of a remotr repo  
 `git clone` - Clone a remote repository to a local machine  
+`git branch 'branch_name'` - Creates a new branch  
+`git checkout 'branch_name'` - Changes the working branch  
+`git branch -D 'branch_name'` - deletes a branch  
