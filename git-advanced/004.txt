@@ -1,0 +1,32 @@
+References
+Pointers to commits
+
+Types of References
+Tags and annotated tags
+Branches
+HEAD
+
+Branch
+A Pointer to a particular commit
+The pointer of the current branch changes as new commits are made
+
+HEAD
+How git knows what branch you are currently on, and what the next parent will be
+It's a pointer 
+    Points to the name of the current branch
+    But can also point to a commit too(detached head)
+It moves when
+    You make a commit in the currently active branch
+    You checkout a new branch
+
+Tags
+lightweight tags
+A simple pointer to commits
+When you create a tag with no arguments, It captures the value in the head
+
+Annotated Tags - Git tag -a
+Point to a commit but store additional information
+ -Author, message, date 
+
+git tag -a v1.0 -m 'Version 1 of my blog'
+git show v1.0
