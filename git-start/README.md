@@ -29,4 +29,4 @@ __Branches__
 `git branch -D 'branch_name'` - deletes a branch  
 
 __Remote__  
-`git remote set-url origin git@github.com:username/repo.git` - Set a remote repo to an existing local project  
+`git remote add origin git@github.com:username/repo.git` - Set a remote repo to an existing local project  
