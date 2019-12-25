@@ -34,7 +34,7 @@ Working with tags
 git tag -a v1.0 -m 'Version 1 of my blog' - Creates a tag
 git show v1.0 - gives the info e.g msg, author etc
 git tag - list tags(lightweight and annotated)
-git show-ref --tags - List all tags and the commitd they point to
+git show-ref --tags - List all tags and the commit they point to
 git tag --points-at <commit> - show all tags pointing at a commit
 git show <tag-name> - Looking at the tag, or tagged contents
 
