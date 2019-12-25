@@ -44,6 +44,18 @@ Branch - Branch pointer moves with every commit to the repository
 Tag - The commit a tag points to doesn't change
     - Its a snapshot
 
+Headless / Detached Head
+----------------------------
+You may need to checkout a specific commit/ tag instead of a branch
+git moves the head pointer to that branch
+checking out to different branches or commits changes the value of the head to the new SHA 
+No reference to the commits made in the detached state
+
+To save your work:
+Create a new branch that points to the last commit you made in a detached state
+ git branch <new-branch-name> <commit>
+Why the last commit
+ Because other commits point to their parents
 
 
 
