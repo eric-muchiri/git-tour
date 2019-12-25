@@ -57,5 +57,9 @@ Create a new branch that points to the last commit you made in a detached state
 Why the last commit
  Because other commits point to their parents
 
+Dangling commits
+If you dont point a new branch to those commits they will be no longer referenced in git
+eventually they will be garbage collected
+ref logs can be used to get back the commits if not yet garbage collected
 
 
