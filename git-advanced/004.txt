@@ -63,3 +63,6 @@ eventually they will be garbage collected
 ref logs can be used to get back the commits if not yet garbage collected
 
 
+MERGING
+Under the hood merge commits are just commits
+Marker of when a feature branch was merged to master
