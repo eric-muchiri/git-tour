@@ -1,0 +1,3 @@
+git checkout -
+checkout to the previous branch you were on
+
