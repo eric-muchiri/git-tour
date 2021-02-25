@@ -1,3 +1,5 @@
 git checkout -
 checkout to the previous branch you were on
 
+git reset --hard HEAD^
+reset to the previous HEAD
