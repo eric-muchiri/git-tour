@@ -3,3 +3,11 @@ checkout to the previous branch you were on
 
 git reset --hard HEAD^
 reset to the previous HEAD
+
+git log
+history of repo
+git log --since='yesterday'
+filter using a timeline
+
+git log --name-status --follow --<file>
+show changes in a given file
